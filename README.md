@@ -84,12 +84,12 @@ The script includes logging and error handling mechanisms to ensure stable execu
 
 Eugene Pik  
 [eugene.pik@mevocopter.com](mailto:eugene.pik@mevocopter.com)  
-[ORCID Profile](https://orcid.org/0000-0001-6296-919X)
-[LinkedIn Profile](https://www.linkedin.com/in/eugene/)
+ORCID Profile https://orcid.org/0000-0001-6296-919X  
+LinkedIn Profile https://www.linkedin.com/in/eugene/
 
 ## DOI 
-10.5281/zenodo.11279424
-[DOI URL](https://doi.org/10.5281/zenodo.11279424)
+10.5281/zenodo.11279424  
+DOI URL https://doi.org/10.5281/zenodo.11279424
 
 ## License
 
