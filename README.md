@@ -2,6 +2,8 @@
 
 This repository contains SQL scripts and corresponding Python code for analyzing ADS-B messages stored in the OpenSky Trino database. The analysis focuses on identifying gaps in the aircraft route positional data (possible GPS jamming) and GPS coordinate jumps from a route (potential GPS spoofing) incidents for airborne aircraft.
 
+![ezgif com-optimize](https://github.com/eugenepik/Opensky_ADS-B_GPS_anomalies/assets/32197349/e18125fa-1ef3-4963-8f09-7203a64bb308)
+
 ## Part 1 - GPS Anomalies: Gaps in Aircraft Routes, Possible Jamming Incidents
 
 This analysis identifies gaps in aircraft routes where either latitude or longitude information is missing, indicating possible data transmission issues in the ADS-B system. The focus is on gaps lasting at least 60 seconds. The quality of navigational data is checked using Navigation Integrity Category (NIC) values, ensuring they are between 0 and 11 or NULL. The accuracy of position data is verified by confirming that the time difference between the recorded time in the ADS-B message and the last position update is no more than 2 seconds. The `icao24` aircraft identifier is checked to ensure it is a valid hexadecimal number to eliminate any malformed ADS-B messages.
